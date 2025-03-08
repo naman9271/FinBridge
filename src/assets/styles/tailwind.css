@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-background text-front font-poppins scroll-smooth;
+  }
+
+  body {
+    @apply m-0 p-0;
+  }
+
+  :root[data-theme="light"] {
+    --color-primary: 026 201 255;
+    --color-secondary: 001 152 234;
+    --color-foreground: 237 243 247;
+    --color-background: 255 255 255;
+    --color-front: 009 009 011;
+    --color-back: 255 255 255;
+    --color-border: 220 220 220;
+  }
+
+  :root[data-theme="dark"] {
+    --color-primary: 026 201 255;
+    --color-secondary: 001 152 234;
+    --color-background: 006 006 006;
+    --color-foreground: 023 025 035;
+    --color-front: 255 255 255;
+    --color-back: 010 010 010;
+    --color-mute: 113 128 150;
+    --color-border: 023 025 035;
+  }
+  
+
+}
+
+
+@layer utilities {
+  .absolute-center {
+    @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .content-visible {
+    content: " ";
+  }
+
+  .p-page {
+    @apply px-[2vw];
+  }
+
+  .scrollbar-primary::-webkit-scrollbar {
+    @apply w-1;
+  }
+  .scrollbar-primary::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .scrollbar-primary::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded hover:saturate-200;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  .scrollbar-idle::-webkit-scrollbar-thumb {
+    @apply bg-opacity-30;
+  }
+  .scrollbar-active::-webkit-scrollbar-thumb {
+    @apply bg-opacity-100;
+  }
+
+  .absolute-cover {
+    @apply absolute top-0 left-0 w-full h-full;
+  }
+}
