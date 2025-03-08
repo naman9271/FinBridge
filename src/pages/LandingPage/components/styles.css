@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .section-gradient-bg {
+      @apply bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800;
+      background-size: 300% auto;
+      backdrop-filter: blur(8px);
+    }
+  
+    .section-hover-shiny {
+      @apply transition-all duration-700 ease-in-out hover:shadow-xl hover:shadow-gray-500/50;
+    }
+  
+    .section-animate-shine {
+      animation: shine 10s linear infinite;
+    }
+  
+    @keyframes shine {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 300%;
+      }
+    }
+
+    .icon-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    }
+
+    .icon-container:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid transparent;
+      transition: all 0.1s ease-in-out;
+    }
+
+    .icon-container:hover::before {
+      animation: revolve 0.1s linear infinite;
+    }
+
+
+  }
