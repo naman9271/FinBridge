@@ -48,8 +48,6 @@ export default function FiInfo() {
 }
 
 const socialLinks: Array<{ link: string; icon: IconType }> = [
-  { link: "", icon: "github" },
-  { link: "", icon: "github" },
-  { link: "", icon: "github" },
-  { link: "", icon: "github" },
+  { link: "https://github.com/naman9271", icon: "github" },
+  { link: "https://github.com/hxrshxz", icon: "github" },
 ];

@@ -6,7 +6,7 @@ export default function FinnyBotPage() {
       <div className="flex flex-col gap-y-12">
         <div className="flex gap-x-4">
           <img
-            src="https://avatars.githubusercontent.com/u/96080203?v=4"
+            src="https://avatars.githubusercontent.com/u/135993950?v=4"
             className="w-[3vw] rounded-full aspect-square h-[3vw] mobile:w-[10vw] mobile:h-[10vw]"
           />
           <div className="flex flex-col">

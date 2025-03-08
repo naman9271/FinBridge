@@ -2,14 +2,14 @@ export default function Hero() {
   return (
       <div className="flex px-24 pt-12 pb-24 gap-x-8 items-center bg-foreground rounded-b-[8rem] mobile:px-6 mobile:justify-center  mobile:rounded-b-[4rem]">
         <img
-          src="https://avatars.githubusercontent.com/u/96080203?v=4"
+          src="https://avatars.githubusercontent.com/u/135993950?v=4"
           alt="profile"
           className="w-[8vw] rounded-full mobile:w-[16vw]"
         />
         <div className="flex flex-col gap-y-2">
           <div>
-            <h1 className="text-xl font-semibold">Riya Jain</h1>
-            <p className="text-sm pt-1">1 Following  |  2 Followers</p>
+            <h1 className="text-xl font-semibold">Harsh Kumar</h1>
+            <p className="text-sm pt-1">1 Following  | 5 Followers</p>
           </div>
             <div className="text-sm">⭐ 5,470 XP</div>
             <div className="flex gap-x-2 text-sm">

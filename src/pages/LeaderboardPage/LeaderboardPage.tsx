@@ -76,13 +76,13 @@ export default function LeaderboardPage() {
 
 const data = [
   {
-    name: "Riya",
-    imageUrl: "https://avatars.githubusercontent.com/u/96080203?v=4",
+    name: "Naman",
+    imageUrl: "https://avatars.githubusercontent.com/u/179296103?s=400&u=04d2e161673e27bafbbc55e80f311553ab391869&v=4",
     points: 96,
   },
   {
-    name: "Olivia",
-    imageUrl: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Harsh",
+    imageUrl: "https://avatars.githubusercontent.com/u/135993950?v=4",
     points: 88,
   },
   {
