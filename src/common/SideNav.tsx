@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className="flex items-center gap-x-2">
           <img src="/logo.png" alt="logo" className="aspect-square w-10" />
           <div className="flex flex-col gap-y-1">
-            <h1 className="font-black text-2xl tracking-wider">FiHub</h1>
+            <h1 className="font-black text-2xl tracking-wider">FinBridge</h1>
             <p className="text-primary text-xs font-semibold">
               Unlock Financial Wisdom
             </p>
@@ -77,7 +77,7 @@ export default function Navbar() {
           <div className="flex items-center gap-x-2">
             <img src="/logo.png" alt="logo" className="aspect-square w-10" />
             <div className="flex flex-col gap-y-1">
-              <h1 className="font-black text-2xl tracking-wider">FiHub</h1>
+              <h1 className="font-black text-2xl tracking-wider">FinBridge</h1>
               <p className="text-primary text-xs font-semibold">
                 Unlock Financial Wisdom
               </p>

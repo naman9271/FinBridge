@@ -7,12 +7,12 @@ export default function Hero() {
         <h1 className="text-5xl font-semibold leading-snug mobile:text-3xl">
           Empower your wallet.
           <br />
-          Fihub: Finance made simple
+          FinBridge: Finance made simple
         </h1>
         <p className="text-lg text-front text-opacity-60">
-          Chart your course to financial mastery with Fihub. <br />
+          Chart your course to financial mastery with FinBridge. <br />
           You can rely on{" "}
-          <span className="font-semibold text-primary">FiHub</span> to start
+          <span className="font-semibold text-primary">FinBridge</span> to start
           your journey!
         </p>
         <div className="my-10 mobile:my-2">

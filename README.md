@@ -1,4 +1,4 @@
-# Fihub: Finance made simple
+# FinBridge: Finance made simple
 
 ## Description
 The Financial Literacy App is designed to empower young adults and professionals aged 18-35 in urban and semi-urban areas of India
@@ -43,7 +43,7 @@ In light of the market analysis, our aim is to provide a personalized, interacti
 
 ## Installation
 
-To run Fihub locally, follow these steps:
+To run FinBridge locally, follow these steps:
 
 1. Clone this repository to your local machine.
 
@@ -92,5 +92,5 @@ Our chatbot offers round-the-clock support, answering queries and guiding users 
 
 ## Deployment
 
-Fihub is deployed and can be accessed [here](https://fihub.vercel.app/).
+FinBridge is deployed and can be accessed [here](https://FinBridge.vercel.app/).
 

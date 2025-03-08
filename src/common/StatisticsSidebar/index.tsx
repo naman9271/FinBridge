@@ -7,7 +7,7 @@ export default function StatisticsSidebar() {
     <section className="flex relative flex-col border-l border-border max-w-[20vw] h-screen mobile:hidden">
       <div className="p-6 flex flex-col gap-y-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-mute text-base font-bold">FiHub Milestones</h1>
+          <h1 className="text-mute text-base font-bold">FinBridge Milestones</h1>
           <ThemeButton className="text-2xl p-2 aspect-square bg-foreground rounded-full flex justify-center items-center border border-front border-opacity-40" />
         </div>
         <div>

@@ -3,7 +3,7 @@ export default function GetPro() {
     <div className="flex justify-between mx-24 bg-primary py-6 px-6 rounded-lg -translate-y-8 mobile:mx-6">
       <div className="flex flex-col gap-y-1">
         <h1 className="text-back font-bold text-xl flex gap-x-1 items-center">
-          <span>FiHub</span>
+          <span>FinBridge</span>
           <span className="bg-background text-primary px-3 rounded-2xl">
             PRO
           </span>
