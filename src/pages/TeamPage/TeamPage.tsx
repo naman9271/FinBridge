@@ -39,12 +39,12 @@ export default function TeamPage() {
         <div className="flex flex-wrap items-center justify-around pt-6 gap-y-12">
           {team.map((member, i) => (
             <div
-              key={i}
-              className="w-[40%] mobile:w-[35%] bg-primary/10 rounded-xl flex flex-col items-center px-2 py-6 border border-primary/40"
-            >
-              <img src={member.imgUrl} className="w-[8vw] rounded-full mobile:w-[16vw] aspect-square object-cover" />
-              <h1 className="mt-4 text-lg font-bold">{member.name}</h1>
-            </div>
+            key={i}
+            className="w-[40%] mobile:w-[80%] bg-primary/10 rounded-xl flex flex-col items-center px-6 py-10 border border-primary/40"
+          >
+            <img src={member.imgUrl} className="w-[15vw] rounded-full mobile:w-[40vw] aspect-square object-cover" />
+            <h1 className="mt-6 text-2xl font-bold">{member.name}</h1>
+          </div>
           ))}
         </div>
       </div>
@@ -54,20 +54,12 @@ export default function TeamPage() {
 
 const team = [
   {
-    name: "Riya",
-    imgUrl: "/riya.jpeg",
+    name: "Naman",
+    imgUrl: "https://avatars.githubusercontent.com/u/179296103?s=400&u=04d2e161673e27bafbbc55e80f311553ab391869&v=4",
   },
   {
-    name: "Dariksha",
-    imgUrl: "https://avatars.githubusercontent.com/u/100822529?v=4",
-  },
-  {
-    name: "Vanshika",
-    imgUrl: "https://avatars.githubusercontent.com/u/102902652?v=4",
-  },
-  {
-    name: "Sakshi",
-    imgUrl: "/sakshi.jpg",
+    name: "Harsh",
+    imgUrl: "https://avatars.githubusercontent.com/u/135993950?v=4",
   },
 ];
 
