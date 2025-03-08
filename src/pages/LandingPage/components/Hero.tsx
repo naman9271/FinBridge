@@ -3,12 +3,13 @@ import Icon from "../../../common/Icon";
 import botIcon from "../components/images/bot.png";
 import xpIcon from "../components/images/xp.png";
 import arICon from "../components/images/ar.png"
+import './styles.css'
 
 <img src={botIcon} alt="robot" className="aspect-square w-14 h-14" />
 
 export default function Hero() {
   return (
-    <section className="px-24 widescreen:py-24 flex h-screen mobile:px-12 mobile:py-6">
+    <section className="px-24 widescreen:py-24 flex h-screen mobile:px-12 mobile:py-6 section-gradient-bg section-hover-shiny section-animate-shine">
       <div className="flex flex-col gap-y-5 widescreen:py-12 mobile:pt-24">
         <h1 className="text-5xl font-semibold leading-snug mobile:text-3xl">
           Empower your wallet.
@@ -16,7 +17,7 @@ export default function Hero() {
           FinBridge: Finance made simple
         </h1>
         <p className="text-lg text-front text-opacity-60">
-          Chart your course to financial mastery with FinBridge. <br />
+          Start your course to financial mastery with FinBridge. <br />
           You can rely on{" "}
           <span className="font-semibold text-primary">FinBridge</span> to start
           your journey!
@@ -26,7 +27,7 @@ export default function Hero() {
             to="/home"
             className="relative text-2xl font-semibold flex items-center gap-x-4 mobile:text-xl"
           >
-            Start the Module!
+            Start Learning
             <span className="bg-primary/5 border border-primary/30 rounded-full p-3">
               <Icon icon="lesson" className="text-[2.1rem] mobile:text-[1.5rem]" />
             </span>
@@ -34,7 +35,7 @@ export default function Hero() {
         </div>
         <div className="my-3 flex gap-y-8 flex-col widescreen:max-w-[45vw] gap-x-8 mobile:w-full">
             <div className="flex gap-x-4 mobile:flex-col mobile:gap-y-8">
-              <div className="flex widescreen:max-w-[45%] gap-x-5 mobile:w-full">
+              <div className="flex widescreen:max-w-[45%] gap-x-5 mobile:w-full icon-container">
                 <img
                   draggable={false}
                   src={botIcon}
@@ -45,7 +46,7 @@ export default function Hero() {
                   AI Bot that is always there to help you during your learning journey
                 </p>
               </div>
-              <div className="flex widescreen:max-w-[45%] gap-x-5 mobile:w-full">
+              <div className="flex widescreen:max-w-[45%] gap-x-5 mobile:w-full icon-container">
                 <img
                   draggable={false}
                   src={xpIcon}
@@ -58,7 +59,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="flex gap-x-4 mobile:w-full mobile:flex-col mobile:gap-y-6">
-              <div className="flex widescreen:max-w-[45%] gap-x-5">
+              <div className="flex widescreen:max-w-[45%] gap-x-5 icon-container">
                 <img
                   draggable={false}
                   src={arICon}
@@ -68,7 +69,7 @@ export default function Hero() {
                 <p className="text-sm text-front text-opacity-50">
                 Utilize AR service analysis to scan financial documents and efficiently extract key data using OCR technology!                </p>
               </div>
-              <div className="flex widescreen:max-w-[45%] gap-x-5">
+              <div className="flex widescreen:max-w-[45%] gap-x-5 icon-container">
                 <img
                   draggable={false}
                   src="https://img.icons8.com/fluency/48/group.png"
