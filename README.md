@@ -48,7 +48,7 @@ To run FinBridge locally, follow these steps:
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/jriyyya/financehub
+    git clone https://github.com/naman9271/financehub
     ```
 
 2. Navigate to the project directory.
