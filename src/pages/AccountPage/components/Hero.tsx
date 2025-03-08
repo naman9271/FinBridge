@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-      <div className="flex px-24 pt-12 pb-24 gap-x-8 items-center bg-foreground rounded-b-[8rem] mobile:px-6 mobile:justify-center  mobile:rounded-b-[4rem]">
+      <div className="flex px-24 pt-12 pb-24 gap-x-8 items-center bg-dark-gray rounded-b-[8rem] mobile:px-6 mobile:justify-center  mobile:rounded-b-[4rem]">
         <img
           src="https://avatars.githubusercontent.com/u/135993950?v=4"
           alt="profile"
