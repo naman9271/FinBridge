@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
 import Icon from "../../../common/Icon";
+import botIcon from "../components/images/bot.png";
+import xpIcon from "../components/images/xp.png";
+import arICon from "../components/images/ar.png"
+
+<img src={botIcon} alt="robot" className="aspect-square w-14 h-14" />
+
 export default function Hero() {
   return (
     <section className="px-24 widescreen:py-24 flex h-screen mobile:px-12 mobile:py-6">
@@ -31,25 +37,23 @@ export default function Hero() {
               <div className="flex widescreen:max-w-[45%] gap-x-5 mobile:w-full">
                 <img
                   draggable={false}
-                  src="https://cdn-icons-png.flaticon.com/512/6134/6134346.png"
+                  src={botIcon}
                   alt="robot"
                   className="aspect-square w-14 h-14"
                 />
                 <p className="text-sm text-front text-opacity-50">
-                  We have a bot, "Finny" which helps you understand your finance
-                  and recommend you modules
+                  AI Bot that is always there to help you during your learning journey
                 </p>
               </div>
               <div className="flex widescreen:max-w-[45%] gap-x-5 mobile:w-full">
                 <img
                   draggable={false}
-                  src="https://cdn-icons-png.freepik.com/256/8078/8078617.png?semt=ais_hybrid"
+                  src={xpIcon}
                   alt="xp"
                   className="aspect-square w-14 h-14"
                 />
                 <p className="text-sm text-front text-opacity-50">
-                  You can earn XP by completing modules, and maintaining a
-                  streak to earn more XP!
+                Advance through modules and build a steady streak to accumulate even more XP along the way!
                 </p>
               </div>
             </div>
@@ -57,13 +61,12 @@ export default function Hero() {
               <div className="flex widescreen:max-w-[45%] gap-x-5">
                 <img
                   draggable={false}
-                  src="https://img.icons8.com/fluency/48/virtual-reality.png"
+                  src={arICon}
                   alt="xp"
                   className="aspect-square w-14 h-14"
                 />
                 <p className="text-sm text-front text-opacity-50">
-                With the AR service analysis, Scanned financial documents, extract pertinent data using OCR technologies!
-                </p>
+                Utilize AR service analysis to scan financial documents and efficiently extract key data using OCR technology!                </p>
               </div>
               <div className="flex widescreen:max-w-[45%] gap-x-5">
                 <img
@@ -73,16 +76,15 @@ export default function Hero() {
                   className="aspect-square w-14 h-14"
                 />
                 <p className="text-sm text-front text-opacity-50">
-                 Interact with the community, ask you doubt away, share your experince, and Grow your connections!
-                </p>
+                Engage with the community, clear your doubts, share your experiences, and expand your network!                </p>
               </div>
             </div>
         </div>
       </div>
       <div className="flex flex-1 flex-col items-center justify-center mobile:hidden">
-        <div className="h-[95%] w-[80%] rounded-t-full rounded-bl-full rounded-br-[145rem] bg-primary flex items-center justify-center overflow-hidden">
+        <div className="h-[100%] w-[80%] rounded-t-full rounded-bl-full rounded-br-[145rem] bg-primary flex items-center justify-center overflow-hidden">
           <img
-            src="https://extension.harvard.edu/wp-content/uploads/sites/8/2022/07/careers-in-corporate-finance.jpg"
+            src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg"
             className="w-full h-full object-cover"
           />
           {/* bg-[url('https://www.wbcsd.org/var/site/storage/images/media/images/finance_img/25992-1-eng-GB/finance_img_i1140.jpg')]" */}
