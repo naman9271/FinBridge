@@ -14,19 +14,16 @@ export default function FiInfo() {
   return (
     <div className="border-t border-border px-6 py-4 flex flex-col gap-y-1 text-sm font-semibold">
       <div className="bg-primary p-2 rounded-lg mb-3 relative overflow-hidden">
-        <div className="absolute-cover bg-gradient-to-r from-transparent to-front/50" />
+        <div className="absolute-cover bg-gradient-to-r from-transparent to-front/50 h-full w-full" />
 
         <div className="flex relative z-10">
-          <div className="w-1/4 flex flex-col items-center">
+          <div className="w-1/3 flex flex-col items-center justify-center ml-2"> {/* Added margin-left */}
             <img src="/logo.png" alt="logo" className="brightness-0 invert" />
-            <p className="font-black text-lg">FinBridge</p>
+            <p className="font-black text-lg text-white">FinBridge</p>
           </div>
 
           <figure role="separator" className="flex-1" />
-
-          <div className="flex flex-col text-red-500 font-black">
-            <figure role="separator" className="flex-1" />
-          </div>
+          {/* ...existing code... */}
         </div>
       </div>
 
