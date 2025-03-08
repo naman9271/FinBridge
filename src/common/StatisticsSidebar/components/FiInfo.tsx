@@ -17,13 +17,12 @@ export default function FiInfo() {
         <div className="absolute-cover bg-gradient-to-r from-transparent to-front/50 h-full w-full" />
 
         <div className="flex relative z-10">
-          <div className="w-1/3 flex flex-col items-center justify-center ml-2"> {/* Added margin-left */}
+          <div className="w-1/3 flex flex-col items-center justify-center ml-2">
             <img src="/logo.png" alt="logo" className="brightness-0 invert" />
             <p className="font-black text-lg text-white">FinBridge</p>
           </div>
 
           <figure role="separator" className="flex-1" />
-          {/* ...existing code... */}
         </div>
       </div>
 
@@ -37,6 +36,7 @@ export default function FiInfo() {
         {socialLinks.map((social, key) => (
           <Link to={social.link} key={key}>
             <Icon icon={social.icon} />
+            {social.name}
           </Link>
         ))}
       </div>
@@ -44,7 +44,7 @@ export default function FiInfo() {
   );
 }
 
-const socialLinks: Array<{ link: string; icon: IconType }> = [
-  { link: "https://github.com/naman9271", icon: "github" },
-  { link: "https://github.com/hxrshxz", icon: "github" },
+const socialLinks: Array<{ link: string; icon: IconType ,name :string}> = [
+  { link: "https://github.com/naman9271", icon: "github", name: "Naman" },
+  { link: "https://github.com/hxrshxz", icon: "github" ,name: "Harsh"},
 ];
