@@ -81,11 +81,6 @@ const data = [
     points: 96,
   },
   {
-    name: "Harsh",
-    imageUrl: "https://avatars.githubusercontent.com/u/135993950?v=4",
-    points: 88,
-  },
-  {
     name: "Emma",
     imageUrl: "https://randomuser.me/api/portraits/women/19.jpg",
     points: 81,

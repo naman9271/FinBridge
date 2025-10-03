@@ -103,5 +103,5 @@ export default function FiInfo() {
 
 const socialLinks: Array<{ link: string; icon: IconType ,name :string}> = [
   { link: "https://github.com/naman9271", icon: "github", name: "Naman" },
-  { link: "https://github.com/hxrshxz", icon: "github" ,name: "Harsh"},
+ 
 ];

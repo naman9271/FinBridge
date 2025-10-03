@@ -56,11 +56,7 @@ const team = [
   {
     name: "Naman",
     imgUrl: "https://avatars.githubusercontent.com/u/179296103?s=400&u=04d2e161673e27bafbbc55e80f311553ab391869&v=4",
-  },
-  {
-    name: "Harsh",
-    imgUrl: "https://avatars.githubusercontent.com/u/135993950?v=4",
-  },
+  }
 ];
 
 const navLinks = [
